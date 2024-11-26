@@ -1,12 +1,14 @@
+
 # Todo App - Chart Helm Kubernetes
 
-Cette application **Todo** est un projet Helm dédié à l'exploration de **Kubernetes** et du **déploiement déclaratif**. Conçue initialement pour démontrer l'architecture conteneurisée, cette chart facilite le déploiement d'une application de gestion de tâches dans un environnement Kubernetes local, en illustrant les principes de configuration et de déploiement via Helm.
-
-### Caractéristiques
+Ceci est un chart Helm pour déployer une application Todo sur Kubernetes, avec: 
 - Intégration base de données MySQL
 - Stockage sur volume persistant
 - Support Nginx Ingress
 - Options de service et déploiement configurables
+
+Conçue initialement pour démontrer l'architecture conteneurisée, cette chart facilite le déploiement pour illustrer les principes de configuration et de déploiement via Helm.
+
 
 ## 🛠 Prérequis
 
@@ -46,3 +48,7 @@ Distribué sous la Licence MIT.
 ## 🚦 Statut
 
 En cours de développement
+
+---
+
+Si vous avez besoin de clarifications ou d'exemples de configuration, dites-le-moi ! 😊
