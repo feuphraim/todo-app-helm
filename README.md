@@ -42,9 +42,9 @@ Conçue initialement pour démontrer l'architecture conteneurisée, cette chart 
 ## 🤝 Contribution
 
 1. Forker le dépôt
-2. Créer une branche de fonctionnalité (`git checkout -b feature/MerveilleusefonctionnalitÃ©`)
-3. Commiter vos modifications (`git commit -m 'Ajout d'une fonctionnalité incroyable'`)
-4. Pousser la branche (`git push origin feature/MerveilleusefonctionnalitÃ©`)
+2. Créer une branche de fonctionnalité
+3. Commiter vos modifications
+4. Pousser la branche
 5. Ouvrir une Pull Request
 
 ## 📄 Licence
