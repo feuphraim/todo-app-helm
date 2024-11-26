@@ -1,5 +1,3 @@
----
-
 # Todo App - Chart Helm Kubernetes
 
 Ceci est un chart Helm pour déployer une application Todo sur Kubernetes, avec: 
