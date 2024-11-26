@@ -2,7 +2,7 @@
 
 # Todo App - Chart Helm Kubernetes
 
-Ceci est un chart Helm pour déployer une application Todo sur Kubernetes, avec :
+Ceci est un chart Helm pour déployer une application Todo sur Kubernetes, avec: 
 - Intégration base de données MySQL
 - Stockage sur volume persistant
 - Support Nginx Ingress
@@ -29,6 +29,7 @@ Conçue initialement pour démontrer l'architecture conteneurisée, cette chart 
 | `persistence.size` | Taille du volume persistant | `10Gi` |
 
 
+
 ## 🔒 Considérations de Sécurité
 
 - Personnaliser les identifiants MySQL
@@ -47,11 +48,11 @@ Conçue initialement pour démontrer l'architecture conteneurisée, cette chart 
 
 ## 📄 Licence
 
-Distribué sous la Licence MIT. Voir `LICENSE` pour plus d'informations.
+Distribué sous la Licence MIT. 
 
 ## 🚦 Statut
 
-Running
+Fonctionnel
 
 ---
 
