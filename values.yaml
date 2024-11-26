@@ -1,0 +1,32 @@
+replicaCount: 1
+
+image:
+  repository: getting-started-app
+  tag: v2
+
+mysql:
+  host: mysql.default.svc.cluster.local
+  user: root
+  database: todos
+  password: password
+
+ingress:
+  enabled: true
+  #host: todoapp.local
+  host: todoapp-helm.local  # Changez le host
+
+persistence:
+  size: 10Gi
+
+service:
+  type: ClusterIP
+  port: 80
+
+serviceAccount:
+  create: true
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 80

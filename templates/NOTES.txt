@@ -1,0 +1,20 @@
+Thank you for installing {{ .Chart.Name }}.
+
+Your release is named {{ .Release.Name }}.
+
+To verify the installation, run the following commands:
+
+1. Check the deployed pods:
+  kubectl get pods
+
+2. Verify the service:
+  kubectl get services {{ .Release.Name }}-app-local-service
+
+3. Access the application:
+  - Service Type: {{ .Values.service.type }}
+  - Service Port: {{ .Values.service.port }}
+
+{{ if .Values.ingress.enabled }}
+Access the application through the Ingress:
+  http://{{ .Values.ingress.host }}
+{{- end }}
