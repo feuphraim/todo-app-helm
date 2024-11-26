@@ -21,8 +21,8 @@ Conçue initialement pour démontrer l'architecture conteneurisée, cette chart 
 ## 🛠️ Paramètres de Configuration
 
 | Paramètre          | Description                     | Défaut                            |
-|--------------------|---------------------------------|------------------------------------|
-| `replicaCount`     | Nombre de réplicas de l'app     | `1`                              |
+|--------------------|---------------------------------|-----------------------------------|
+| `replicaCount`     | Nombre de réplicas de l'app     | `1`                               |
 | `image.repository` | Dépôt d'image Docker            | `getting-started-app`             |
 | `image.tag`        | Tag de l'image Docker           | `v2`                              |
 | `mysql.host`       | Hôte du service MySQL           | `mysql.default.svc.cluster.local` |
